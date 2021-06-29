@@ -41,4 +41,4 @@ $git clone <https://github.com/flavionanni/AuxilioFinanceiro.git>
 
 <h2>Licença</h2>  
 
-![Badge](https://img.shields.io/github/license/flavionanni/AuxilioFinanceiro)
+![Badge](https://img.shields.io/github/license/flavionanni/AuxilioFinanceiro?style=for-the-badge)
