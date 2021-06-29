@@ -1,0 +1,203 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+body {
+    background: #f0f2f5;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.container {
+    width: min(90vw,800px);
+    margin: auto;
+}
+
+header {
+    margin-bottom: 2.5rem;
+    background: cadetblue;
+}
+
+/*======TITLE======*/
+
+.title {
+    text-align: center;
+    padding: 3.5rem;
+    color: white;
+}
+
+.title-table{
+    color: cadetblue;
+    font-weight: bold;
+    margin: 1rem auto;
+
+}
+
+/*======FORM======*/
+
+.form {
+
+    margin-bottom: 6rem;
+
+}
+
+.form-container {
+    background: white;
+    border: cadetblue solid 1px;
+    border-radius: 0.50rem;
+    padding: 1.5rem;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    font-weight: bolder;
+}
+
+.form-group input{
+    height: 2rem;
+    margin-top: 0.5rem;
+    width: 100%;
+    
+}
+
+.form-group:first-child{
+    margin-bottom: 1rem;
+}
+
+/*======BOTÕES======*/
+
+button {
+    color: white;
+    background: cadetblue;
+    font-weight: bolder;
+    font-size: 1rem;
+    border: white solid 1px;
+    border-radius: 1rem;
+    padding: 0.65rem;
+    cursor: pointer;
+}
+
+button:last-child {
+
+    margin-bottom: 1.5rem;
+
+}
+
+.submit {
+    float: right; 
+}
+
+.submit:hover {
+    background: rgb(114, 164, 167);
+}
+
+/* TABELAS */
+
+table {
+    margin-top: 1.5rem;
+    background: white;
+    text-align: center;
+    padding: 5px auto ;
+}
+
+#table-container {
+    overflow-x: auto;
+
+}
+
+table, td, th {
+    border: 1px solid cadetblue;
+
+}
+
+td {
+    padding-top: 2px;
+    padding-bottom: 2px;
+
+}
+
+.table-finance {
+    width: 100%;
+    margin-bottom: 1rem;
+
+}
+
+.table-finance input {
+    border: none;
+    width: 20px;
+
+}
+
+/*Textos */
+
+.text strong {
+    color: cadetblue ;
+
+}
+
+li strong {
+    color: cadetblue
+
+}
+
+li {
+    margin: 0.4rem;
+
+}
+
+a {
+
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+
+}
+
+.link_color {
+    color: cadetblue;
+
+}
+
+/* INPUT */
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+
+/* FOOTER */
+
+footer{
+    background-color: cadetblue;
+    padding: 1.5rem;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+
+}
+
+@media (min-width: 800px) {
+    .form-container {
+        display: flex;
+        background: white;
+        border: cadetblue solid 1px;
+        border-radius: 0.50rem;
+        padding: 1.0rem;
+        justify-content: space-between;
+        margin-bottom: 1rem;
+        font-weight: bolder;
+    }
+
+}
